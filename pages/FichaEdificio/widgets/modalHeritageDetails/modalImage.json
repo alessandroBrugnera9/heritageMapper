@@ -17,7 +17,7 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "{{\"https://drive.google.com/thumbnail?id=\"+handler.getImageFileIdByHeritageId.data}}",
+  "image": "{{getHeritageDetailsById.data[0][\"Link Imagem\"]}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,

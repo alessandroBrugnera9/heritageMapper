@@ -28,7 +28,8 @@
             "Data de tombamento",
             "Órgão de Tombamento",
             "Link tombamento",
-            "Estado de conservação"
+            "Estado de conservação",
+            "Link Imagem"
           ]
         },
         "queryFormat": {

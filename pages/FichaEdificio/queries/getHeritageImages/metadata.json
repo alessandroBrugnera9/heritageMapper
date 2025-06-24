@@ -28,7 +28,7 @@
     "dynamicBindingPathList": [],
     "name": "getHeritageImages",
     "pageId": "FichaEdificio",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
