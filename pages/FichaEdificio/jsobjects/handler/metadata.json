@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6855c95c5a22d77c2c91ba41_34e7140a-c72e-41fd-829c-a0cab2ed0c2e",
+  "id": "FichaEdificio_handler",
+  "unpublishedCollection": {
+    "name": "handler",
+    "pageId": "FichaEdificio",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

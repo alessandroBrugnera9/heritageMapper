@@ -1,0 +1,57 @@
+{
+  "allowClustering": false,
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "defaultMarkers": "{{handler.mapVisibleData.data}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultMarkers"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onMarkerClick"
+    }
+  ],
+  "enableCreateMarker": false,
+  "enableMapTypeControl": false,
+  "enablePickLocation": false,
+  "enableSearch": true,
+  "flexVerticalAlignment": "start",
+  "isClickedMarkerCentered": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cj5skrhg7o",
+  "leftColumn": 33,
+  "mapCenter": {
+    "lat": -34.397,
+    "long": 150.644,
+    "title": ""
+  },
+  "minWidth": 450,
+  "mobileBottomRow": 45,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onMarkerClick": "{{handler.onMapMarkerClick();}}",
+  "originalBottomRow": 60,
+  "originalTopRow": 5,
+  "parentColumnSpace": 20.25,
+  "parentId": "sciy8mml5a",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 1,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "ik6df5khk8",
+  "widgetName": "mapHeritage",
+  "zoomLevel": 60
+}

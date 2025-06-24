@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 75,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "send-message",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f5jt5nxpfd",
+  "leftColumn": 54,
+  "minWidth": 120,
+  "mobileBottomRow": 95,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 91,
+  "needsErrorInfo": false,
+  "onClick": "{{postNewComment.run().then(() => {\n  getCommentsById.run().then(() => {\n    inputNewComment.setValue(\"Escreva seu comentário...\");\n  });\n}).catch(() => {\n  showAlert('Comentário falhou.', 'error');\n});}}",
+  "originalBottomRow": 75,
+  "originalTopRow": 71,
+  "parentColumnSpace": 13.34375,
+  "parentId": "7fvrknbffr",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "Enviar",
+  "topRow": 71,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "34wiytgmbs",
+  "widgetName": "btSendCommand"
+}
