@@ -1,11 +1,30 @@
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+# HeritageMapper
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+HeritageMapper is a simple, free, and easily adaptable web application built with [Appsmith](https://www.appsmith.com/) to display, explore, and manage tabular and geospatial data. It is designed as a practical starter template for anyone looking to create a similar solution—whether for personal projects, educational purposes, or as a foundation for a company's internal tool.
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+## Key Features
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
+- **Integrated Map & List Views**: The application offers both a map and a table (list) view of your data. These views are *linked*—also known as *coordinated views* or *linked brushing*—meaning that selecting an item in one view highlights or focuses on the corresponding item in the other. This enhances data exploration and makes it easy to cross-reference spatial and tabular information.
 
-##### You can visit the application using the below link
+- **Flexible Data Source**: Data is sourced from Google Sheets, making it easy to update, expand, or adapt. This approach allows anyone to use their existing data (CSV, Excel, etc.) by simply importing it into a Google Sheet. No advanced backend setup is required.
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://abs.appsmith.com/applications/6855c95c5a22d77c2c91ba41/pages/6855ca54635f5f70b9a0f1ae) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://abs.appsmith.com/applications/6855c95c5a22d77c2c91ba41/pages/6855ca54635f5f70b9a0f1ae/edit)
+- **Detail & Comment System**: Users can view detailed information for each item and add comments. This demonstrates how the interface can also be used to store and retrieve associated data, not just visualize it.
+
+- **Image Support**: Images can be displayed by linking to files stored on Google Drive. While Google Drive may not always show images in full quality, they are easily embedded by using their IDs. The system can also be extended to use custom links (such as Imgur or other cloud storage solutions) for improved image support.
+
+- **Quick & Practical Design**: The interface is intentionally simple and fast, making use of Appsmith’s native features to connect queries, views, and actions. While more advanced best practices can be implemented, this project serves as a practical example of how to quickly build a functional app using free and accessible tools.
+
+## Use Cases
+
+- Creating public or internal web tools for data visualization (heritage sites, assets, properties, etc.)
+- Rapid prototyping for companies with existing data in spreadsheets
+- Educational projects demonstrating linked data views and cloud-sourced images
+
+## Notes
+
+- The design and user experience can always be further improved, but the current setup is minimal, clear, and easy to use or customize.
+- The project is open and free for anyone interested in building similar tools or learning how to connect Google Sheets, Appsmith, and other free resources.
+
+---
+
+Feel free to fork, adapt, or contribute!
